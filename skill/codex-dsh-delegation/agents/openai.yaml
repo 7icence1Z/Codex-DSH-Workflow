@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codex ↔ DSH Delegation"
+  short_description: "Delegate focused tasks to DeepSeek Harness and verify results"
+  default_prompt: "Use $codex-dsh-delegation to hand off one focused local task to DeepSeek Harness, wait for completion, and verify the acceptance test."

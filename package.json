@@ -1,0 +1,16 @@
+{
+  "name": "dsh-minimal-build",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minimal, dependency-free, verifiable static build of the captured DeepSeek Harness web-client snapshot in ./work",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node build.mjs",
+    "serve": "node serve.mjs",
+    "verify": "node verify.mjs",
+    "test": "node verify.mjs"
+  }
+}
